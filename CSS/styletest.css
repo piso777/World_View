@@ -1,0 +1,17 @@
+ul,li{
+    list-style: none;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+form{
+    border-bottom: thin solid gray;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.active{
+    border-bottom: medium solid blue;
+}

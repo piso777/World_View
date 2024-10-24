@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    width: 1140px;
+    margin: 50px auto;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+
+}
+figure{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding-block: 20px;
+}
+.p1{
+    padding-block: 20px;
+    text-align: justify;
+}
+figcaption{
+    display: flex;
+    justify-content: space-between;
+}
+.df{
+    padding-left: 20px;
+}
+aside{
+    background-color: black;
+    margin-left: 10px;
+    transition:  background-color 1 linear;
+}
+.zz{
+    border-right: thin solid gray;
+    padding-right: 10px;
+}
+.x{
+    height: 3px;
+    background-color: blue;
+    width: 20%;
+    position: relative;
+    right: 124px;
+    transition: all .3s linear;
+}
+.dd{
+    overflow: hidden;
+}
+.img1{
+    overflow: hidden;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+.lin{
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+#inp{
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    padding-bottom: 20px;
+}
+i{
+    padding-top: 10px;
+    padding-left: 7px;
+}
+figure:hover aside{
+    background-color: blue;
+}
+.lin:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+figure:hover #inp{
+    cursor: pointer;
+}
+figure:hover .c{
+    transform: translate(10px,0)
+}
+figure:hover .x{
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+figure:hover .img1{
+    transform: scale(1.2) rotate(-10deg);
+}
